@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:background="@drawable/backgrnd_drawer_header"
+    android:padding="20dp">
+
+    <ImageView
+        android:src="@mipmap/da35a99138d1c37b05356e30e4f0ad71_circle_profile_user_icon_png_500_512"
+        android:layout_width="75dp"
+        android:layout_height="75dp"/>
+
+    <TextView
+        android:id="@+id/Header_Fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Page"
+        android:includeFontPadding="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/Header_desc"
+        android:includeFontPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

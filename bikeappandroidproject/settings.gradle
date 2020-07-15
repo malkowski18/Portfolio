@@ -1,0 +1,2 @@
+rootProject.name='Bike App Android Project'
+include ':app'

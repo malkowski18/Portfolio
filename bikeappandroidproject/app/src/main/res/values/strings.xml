@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Bike App Android Project</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="go">GO</string>
+    <string name="new_user_sign_up">New user SIGN UP?</string>
+    <string name="hello_there_welcome_back">Hello there, Welcome Back!</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="bike_image">bike_image</string>
+    <string name="textfield_label" />
+    <string name="textfield_label2" />
+    <string name="password">Password</string>
+
+    <string name="access_token" translatable="false">pk.eyJ1Ijoia29zdGFyZXYxOCIsImEiOiJjazhwb3c1bTYwZm1tM2pwc2I2ODZ1MXFuIn0.SQL6T3GJdYfzQ_ZakV0k_A</string>
+    <string name="user_location_permission_explanation">This app needs location permissions to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+    <string name="loading_snapshot_image">Loading snapshot image</string>
+    <!-- Recyclerview Directions on map -->
+    <string name="rv_directions_route_card_name">Station #%1$d</string>
+    <string name="rv_directions_route_available_table_info">%1$d bikes available</string>
+    <string name="toast_instruction">Tap on cards above</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "75618481276",
+    "firebase_url": "https://brno-bike-application-project.firebaseio.com",
+    "project_id": "brno-bike-application-project",
+    "storage_bucket": "brno-bike-application-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75618481276:android:0361c2f5de701376ee85f9",
+        "android_client_info": {
+          "package_name": "com.example.bikeappandroidproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75618481276-ld2135kas1hrefb2dip6cc0ij28qnlof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB79ZCPV3sNve2jNoukL9tKt8DO9N1wkKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75618481276-ld2135kas1hrefb2dip6cc0ij28qnlof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

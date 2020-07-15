@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapActivity"
+    android:orientation="vertical"
+    android:id="@+id/drawerLayout">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTargetLat="38.9098"
+        mapbox:mapbox_cameraTargetLng="-77.0295"
+        mapbox:mapbox_cameraZoom="12">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_on_top_of_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/camera_share_snapshot_image_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="626dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_photo_camera_black_24dp"
+            android:backgroundTint="#FFC107"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="686dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="25dp"
+            android:background="#fece2f"
+            android:enabled="false"
+            android:fontFamily="@font/bangers"
+            android:text="Start navigation"
+            android:textColor="@color/mapboxWhite"
+            android:textSize="18dp"
+            />
+    </com.mapbox.mapboxsdk.maps.MapView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contentl"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        mapbox:headerLayout="@layout/header"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:itemTextColor="@color/darkgray"
+        app:itemIconTint="@color/darkgray"
+        app:menu="@menu/drawermenu"
+        android:layout_gravity="start"
+        android:id="@+id/navView"
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
