@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo Lista</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="bg-primary mb-6">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <nav class="navbar justify-content-between">
+            <a class="navbar-brand">Todo Lista</a>
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Szukaj" aria-label="Search"
+                id="searchtextbox" />
+            </form>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="todo-outer">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-12 col-md-8">
+          <h1>Witamy w aplikacji 'Lista zadań'</h1>
+          <div class="todo-inner">
+            <div class="form-row">
+              <div class="col-8 mr-lg-2">
+                <input type="text" class="form-control" placeholder="Wpisz zadanie" id="dodaj_input_zadania" />
+                <input type="hidden" id="saveindex">
+                <input type="date" class="form-control" placeholder="Wpisz datę" id="input_daty" />
+              </div>
+              <button type="button" class="btn btn-success mr-lg-2" id="addtaskbtn">
+                Dodaj
+              </button>
+              <button type="button" class="btn btn-success mr-lg-2" id="savetaskbtn" style="display: none;">
+                Zapisz
+              </button>
+              <button type="button" id="deleteallbtn" class="btn btn-danger">
+                Usuń wszystkie
+              </button>
+            </div>
+            <div class="to-do-output">
+              <table class="table table-striped mt-3 mb-0" id="addedtasklist">
+                
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
