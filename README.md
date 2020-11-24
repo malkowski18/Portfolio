@@ -5,3 +5,7 @@ My projects are located here
 
 [E-commerce website](http://kostarev18.atwebpages.com/)
 
+
+[Javascript puzzle](http://www.zutwi.tk/)
+
+
